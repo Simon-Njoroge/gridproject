@@ -6,7 +6,9 @@ body{
     grid-template-columns: 20% 20% 20% 20%;
     grid-gap: 20px;
     justify-content: center;
+    padding-bottom: 100px;
 }
+
 .kira{
    grid-row: span 2;
 }
@@ -79,11 +81,13 @@ img{
  @media only  screen and (max-width: 768px) {
    body {
     display: block;
+    padding: auto;
+
    }
    .container{
     display: block;
     grid-gap: 20px;
-    
+    padding: 20px;
  }
 
  }
